@@ -2,8 +2,8 @@
 title: "W06-Reflection Essay-Introduction to Positron"
 author: "Lucynda Young"
 date: "`r format(Sys.time())`"
-format: 
-  html: 
+format:
+  html:
     toc: true
     toc-depth: 4
     toc-expand: 3
@@ -14,34 +14,38 @@ format:
     code-overflow: wrap
     code-tools: true
 editor: visual
-execute: 
+execute:
   freeze: auto
 ---
+
+# Introduction
+
+This reflection documents my experience using Positron...
+---
+
 # Introduction
 
 This reflection documents my experience installing and using **Positron**, exploring AI integration, and publishing a Quarto report to GitHub Pages.
 
----
+------------------------------------------------------------------------
 
 # 1. Project Setup in Positron
 
 ## Prompt
 
-> Start a new project and Quarto file (.qmd) inside Positron.  
-> Create a folder called "Intro-Positron" and organize the file structure properly.  
-> Start a new project by opening that folder.  
-> Create and save the qmd file with the required YAML header.
-## Response
+> Start a new project and Quarto file (.qmd) inside Positron.\
+> Create a folder called "Reflection-assignments" and organize the file structure properly.\
+> Start a new project by opening that folder.\
+> Create and save the qmd file with the required YAML header. \## Response
 
-I created a folder titled **Intro-Positron** inside my course directory using Finder on my MacBook. I then opened Positron and selected **Open Folder**, choosing the Intro-Positron folder. This automatically generated the `.posit` folder.
+I created a folder titled **Reflection-assignments** inside my course directory using Finder on my MacBook. I then opened Positron and selected **Open Folder**, choosing the Intro-Positron folder. This automatically generated the `.posit` folder.
 
-Creating a project folder ensures:
-- Reproducibility  
-- Organized file management  
-- Easy GitHub publishing  
-- Clean project environment  
+Creating a project folder ensures: - Reproducibility\
+- Organized file management\
+- Easy GitHub publishing\
+- Clean project environment
 
-::: {.callout-tip}
+::: callout-tip
 Opening the folder itself (instead of just a file) ensures Positron recognizes it as a project.
 :::
 
@@ -67,7 +71,6 @@ This report demonstrates the following Quarto features:
 - Footnotes  
 - Figures with labels  
 - Tables generated with R  
-
 ---
 
 ## Example: R Code Execution
@@ -86,8 +89,7 @@ plot(cars$speed, cars$dist)
 
 Panel Tabset Example
 
-::: {.panel-tabset}
-
+::: panel-tabset
 Positron Advantages
 
 Built-in AI tools
@@ -105,84 +107,79 @@ Traditional layout
 Mature ecosystem
 
 Requires external AI plugins
-
 :::
 
 Blockquote Example
 
-Positron integrates AI directly into the IDE, making coding more interactive and efficient.
+> Positron integrates AI directly into the IDE, making coding more interactive and efficient.
 
 Footnote Example
 
-Positron improves workflow efficiency significantly.1
+# Essay Reflection 3.1 Installing and Exploring Positron Prompt
 
-3. Essay Reflection
-3.1 Installing and Exploring Positron
-Prompt
-
-Download and install Positron. Follow the videos in Step 1 and Step 3.
+| Download and install Positron. Follow the videos in Step 1 and Step 3.
 
 Response
 
-After downloading Positron, I followed along with the tutorial videos. I practiced:
+-   After downloading Positron, I followed along with the tutorial videos. I practiced:
 
-Creating projects
+-   Creating projects
 
-Running R code
+-   Running R code
 
-Rendering Quarto files
+-   Rendering Quarto files
 
-Exploring AI tools
+-   Exploring AI tools
 
-The interface felt cleaner and more modern than RStudio.
+-   The interface felt cleaner and more modern than RStudio.
 
-3.2 What I Like About Positron Compared with RStudio
-Prompt
+# 3.2 What I Like About Positron Compared with RStudio Prompt
 
-What do you like about Positron compared with RStudio?
+| What do you like about Positron compared with RStudio?
 
 Response
 
 Compared to RStudio, I prefer Positron because:
 
-AI is integrated directly into the IDE
+-   AI is integrated directly into the IDE
 
-The interface feels less cluttered
+-   The interface feels less cluttered
 
-Quarto rendering is seamless
+-   Quarto rendering is seamless
 
-Publishing workflows are streamlined
+-   Publishing workflows are streamlined
 
-RStudio feels stable and familiar, but Positron feels designed for modern AI-supported workflows.
+-   RStudio feels stable and familiar, but Positron feels designed for modern AI-supported workflows.
 
-4. AI Integration in Positron {#sec-ai}
-Prompt
+-   
 
-Describe how AI can be used inside Positron.
+    # AI Integration in Positron {#sec-ai} Prompt
+
+| Describe how AI can be used inside Positron.
 
 Response
 
 AI inside Positron can assist with:
 
-Code completion
+-   Code completion
 
-Code explanation
+-   Code explanation
 
-Debugging
+-   Debugging
 
-Writing documentation
+-   Writing documentation
 
-Generating Quarto content
+-   Generating Quarto content
 
-Refactoring code
+-   Refactoring code
 
-Some AI features are free (limited tier), while others require subscription services.
+-   Some AI features are free (limited tier), while others require subscription services.
 
-GitHub Copilot Experience
+# GitHub Copilot Experience
 
-I applied for the GitHub Copilot Education plan and was approved.
+I applied for the GitHub Copilot Education plan and waiting to be approved.
 
-(Insert Screenshot Here)
+![](https://raw.githubusercontent.com/Cynyng/Reflection-Assignments/refs/heads/main/Screenshot.png)
 
 GitHub Copilot has been helpful for:
 
@@ -194,36 +191,35 @@ Speeding up documentation writing
 
 However, I noticed that over-reliance could reduce deep thinking. When used intentionally, it enhances productivity without replacing critical thinking.
 
-::: {.callout-warning}
+::: callout-warning
 AI should support learning, not replace analytical reasoning.
 :::
 
 Overall, I found GitHub Copilot helpful rather than distracting.
 
-5. Publishing to GitHub Pages
-Prompt
+# Publishing to GitHub Pages Prompt
 
-Publish this report to GitHub Pages and provide a URL.
+| Publish this report to GitHub Pages and provide a URL.
 
 Response
 
 To publish this report, I:
 
-Created a GitHub repository
+-   Created a GitHub repository
 
-Pushed my .qmd and .html files
+-   Pushed my .qmd and .html files
 
-Enabled GitHub Pages in repository settings
+-   Enabled GitHub Pages in repository settings
 
-Selected the main branch
+-   Selected the main branch
 
 My GitHub Pages URL:
 
-https://yourusername.github.io/intro-positron/
+https://github.com/Cynyng/Reflection-Assignments/
 
 GitHub Pages hosts rendered HTML files, while GitHub repositories store source code.
 
-Conclusion
+# Conclusion
 
 This module strengthened my ability to:
 
@@ -236,4 +232,3 @@ Integrate AI into coding workflows
 Publish content using GitHub Pages
 
 I now feel confident using Positron as a modern data science and publishing environment.
-
