@@ -1,0 +1,70 @@
+---
+title: "W07 Reflection: Data Analytics with Google Cloud BigQuery and Looker Studio"
+author: "Lucynda Young"
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+# Introduction
+
+The LinkedIn Learning course *Data Analytics with Google Cloud BigQuery and Looker Studio* introduced the process of analyzing large datasets using Google Cloud tools and transforming raw data into meaningful visual insights. The training demonstrated how cloud-based data warehouses and business intelligence tools can work together to support data-driven decision-making. Through this course, I gained a better understanding of how to query large datasets using SQL in BigQuery and how to visualize those results using Looker Studio dashboards.
+
+# BigQuery Overview
+
+Google BigQuery is a fully managed cloud data warehouse designed to analyze large datasets quickly using SQL queries. One of the main advantages of BigQuery is its ability to process extremely large datasets without requiring local infrastructure. Because it operates in the cloud, users can store, query, and analyze data from multiple sources efficiently.
+
+During the training, I learned how BigQuery organizes data into **projects, datasets, and tables**. Projects act as the main container, datasets organize related tables, and tables store the structured data that analysts query. Understanding this structure is important because it determines how data is accessed and managed within the platform.
+
+# Querying Data with SQL
+
+Another key component of the course was learning how to use SQL queries to analyze data. BigQuery uses a version of SQL called **GoogleSQL**, which allows users to filter, aggregate, and transform large datasets.
+
+The instructor demonstrated how analysts can retrieve specific information using commands such as:
+
+-   `SELECT` to retrieve data
+-   `FROM` to identify the dataset or table
+-   `WHERE` to filter results
+-   `GROUP BY` to summarize data
+-   `ORDER BY` to sort results
+
+These queries make it possible to extract insights from large volumes of data quickly. I also learned that BigQuery automatically scales computing resources, allowing complex queries to run efficiently even when datasets contain millions or billions of rows.
+
+# Connecting BigQuery to Looker Studio
+
+A major focus of the course was integrating BigQuery with Looker Studio to create visual reports. Looker Studio acts as a business intelligence tool that connects directly to BigQuery and allows analysts to build dashboards without exporting the data.
+
+The process generally involves:
+
+1.  Connecting Looker Studio to a BigQuery dataset.
+2.  Selecting the tables or queries to use as the data source.
+3.  Creating visualizations such as charts, tables, and scorecards.
+4.  Designing a dashboard layout that clearly communicates insights.
+
+This connection allows organizations to create dynamic dashboards that automatically update as new data is added to BigQuery.
+
+# Data Visualization and Dashboards
+
+The course also emphasized the importance of clear and effective data visualization. Looker Studio provides many visualization options including:
+
+-   Bar charts
+-   Time-series charts
+-   Tables
+-   Scorecards
+-   Geographic maps
+
+These visualizations allow analysts to present complex datasets in a way that stakeholders can easily understand. I learned that effective dashboards focus on key metrics, maintain a clean design, and avoid unnecessary clutter so decision-makers can quickly identify important trends.
+
+# Key Takeaways
+
+Several important lessons stood out from this training. First, cloud-based data warehouses like BigQuery make it possible to analyze extremely large datasets efficiently without needing local infrastructure. Second, SQL remains one of the most essential skills for data analysts because it allows users to extract meaningful insights from structured data. Finally, visualization tools such as Looker Studio play a crucial role in communicating data insights to stakeholders through clear dashboards and reports.
+
+Together, BigQuery and Looker Studio form a powerful analytics workflow: BigQuery handles the large-scale data processing while Looker Studio transforms the results into visual insights that support decision-making.
+
+# Certification
+
+After completing the LinkedIn Learning training, I received the following certificate confirming successful completion of the course.
+
+![](https://raw.githubusercontent.com/Cynyng/Reflection-Assignments/refs/heads/main/linkedinlearning.png)
